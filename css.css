@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.game-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: #000;
+}
+
+#player {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    bottom: 0;
+}
